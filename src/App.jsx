@@ -7,10 +7,12 @@ import Carousel from "./components/carousel/Carousel";
 import { Caracteristicas } from "./components/caracteristicas/Caracteristicas";
 import { About } from "./components/about/About";
 import { Footer } from "./components/footer/Footer";
+import { Descripcion } from "./components/descripcion/Descripcion";
 
 function App() {
   return (
     <div>
+      {/* >>> NavBar e imagen frontal <<<  */}
       <div className="banner-container">
         <Navbar />
         <img
@@ -19,36 +21,51 @@ function App() {
           alt="banner sillones"
         />
         <div className="overlay"></div>
-        <h1>Desde 1942 en producción de butacas y sillones</h1>
+        <h1 className="title-frontImg">Desde 1942 en producción de butacas y sillones</h1>
       </div>
 
+      {/* >>> Carousel de imagenes <<<  */}
       <div>
         <div className="line-title">
           <hr />
-          <h2>Nuestros Trabajos</h2>
+          <h2 className="title-menu">Nuestros Trabajos</h2>
           <hr />
         </div>
         <Carousel />
       </div>
 
+      {/* >>> Descripcion <<<  */}
+      <div className="descripcion">
+      <div className="line-title">
+          <hr />
+          <h2 className="title-menu">Descripcion</h2>
+          <hr />
+        </div>
+        <Descripcion/>
+      </div>
+
+
+      {/* >>> Caracteristicas <<<  */}
       <div className="caracteristicas">
         <div className="line-title">
           <hr />
-          <h2>Caracteristicas</h2>
+          <h2 className="title-menu">Caracteristicas</h2>
           <hr />
         </div>
         <Caracteristicas/>
       </div>
 
-      <div className="caracteristicas">
+      {/* >>> About <<<  */}
+      <div className="about">
         <div className="line-title">
           <hr />
-          <h2>Nosotros</h2>
+          <h2 className="title-menu">Sobre nosotros</h2>
           <hr />
         </div>
         <About/>
       </div>
 
+      {/* >>> Footer <<<  */}
       <Footer/>
     </div>
   );

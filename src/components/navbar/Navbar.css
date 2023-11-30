@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway);
+/* @import url(https://fonts.googleapis.com/css?family=Raleway); */
 /* h2 {
   vertical-align: center;
   text-align: center;
@@ -12,10 +12,11 @@ html, body {
 
 * {
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 .top-nav {
-  font-family: "Raleway";
+  /* font-family: "Raleway"; */
   position: fixed;
   top: 0;
   left: 0;
@@ -32,11 +33,17 @@ html, body {
   z-index: 1000; /* Asegura que la barra de navegación esté sobre otros elementos */
 }
 
+.Title-page{
+  padding-left: 15%;
+  white-space: nowrap;
+}
+
 .menu {
   display: flex;
   flex-direction: row;
   list-style-type: none;
   margin: 0;
+  margin-right: 15%;
   padding: 0;
 }
 
@@ -98,6 +105,12 @@ html, body {
 @media (max-width: 700px) {
   .menu-button-container {
     display: flex;
+  }
+  .Title-page{
+    /* text-align: center; */
+    display: inline;
+    margin: 0 auto ;
+    padding: 0;
   }
   .menu {
     position: absolute;

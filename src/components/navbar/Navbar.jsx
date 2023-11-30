@@ -10,9 +10,9 @@ const Navbar = () => {
 
   return (
     <section className="top-nav">
-    <div>
+    <h1 className="Title-page">
         Butacas Equitanti
-    </div>
+    </h1>
     <input id="menu-toggle" type="checkbox" />
     <label className='menu-button-container' htmlFor="menu-toggle">
     <div className='menu-button'></div>

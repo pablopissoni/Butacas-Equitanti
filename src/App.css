@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
 *{
   padding: 0;
   margin: 0;
@@ -15,7 +17,7 @@
 }
 
 /* Estilos para el título en el banner */
-h1 {
+.title-frontImg {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -34,16 +36,17 @@ h1 {
 hr {
   /* display: inline-block; */
   border: 0; /* Elimina el borde predeterminado */
-  width: 300px;
+  width: 400px;
   height: 1px; /* Ajusta la altura de la línea */
   background-color: #cacaca; /* Color de fondo de la línea */
   margin: 20px 0; /* Ajusta el espacio antes y después del hr */
 }
 
-h2 {
+.title-menu {
   /* display: inline; */
   text-align: center;
   margin: 10px 20px;
+  white-space: nowrap;
   /* border: solid 1px red; */
 
 }
