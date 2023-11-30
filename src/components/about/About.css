@@ -1,0 +1,47 @@
+/* Tu archivo CSS */
+
+.nuestra-historia {
+    background-color: #f8f8f8;
+    height: auto;
+    /* Fondo gris claro para destacar la sección */
+    padding: 40px 0;
+    /* Ajusta el espacio interno según sea necesario */
+    background: url('../../../public/images/filas-asientos-rojos-teatro.jpg') center/cover no-repeat;
+}
+
+.overlay {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 0 40px;
+}
+
+.container {
+    max-width: auto;
+    padding: 30px;
+    /* Ajusta el ancho máximo del contenedor principal */
+    margin: 70px auto;
+    /* Centra el contenedor en la página */
+}
+
+.title-about {
+    color: #ffffff;
+}
+
+.descripcion,
+.marca-registrada,
+.servicios {
+    font-size: 18px;
+    /* Tamaño del texto */
+    line-height: 1.3;
+    /* Altura de línea para mejorar la legibilidad */
+    margin-bottom: 20px;
+    /* Espacio inferior entre párrafos */
+    color: #000000;
+    /* Color del texto secundario */
+}
+
+/* Estilo adicional para resaltar la marca registrada */
+.marca-registrada {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    /* Color azul para destacar la marca registrada */
+}

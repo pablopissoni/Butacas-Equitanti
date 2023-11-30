@@ -1,8 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
-h2 {
+/* h2 {
   vertical-align: center;
   text-align: center;
-}
+  border: solid 1px red;
+} */
 
 html, body {
   margin: 0;
@@ -10,21 +11,25 @@ html, body {
 }
 
 * {
-  font-family: "Raleway";
   box-sizing: border-box;
 }
 
 .top-nav {
+  font-family: "Raleway";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   background-color: #00BAF0;
-  background: linear-gradient(to left, #f46b45, #eea849);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to left, #1b0000, rgb(92, 0, 0));
   color: #FFF;
   height: 50px;
   padding: 1em;
+  z-index: 1000; /* Asegura que la barra de navegación esté sobre otros elementos */
 }
 
 .menu {
@@ -103,6 +108,7 @@ html, body {
     width: 100%;
     justify-content: center;
     align-items: center;
+    z-index: 1000;
   }
   #menu-toggle ~ .menu li {
     height: 0;

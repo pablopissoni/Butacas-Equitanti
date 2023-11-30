@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import "./Navbar.css"; // Asegúrate de tener este archivo CSS para los estilos
 
 const Navbar = () => {
@@ -11,18 +11,18 @@ const Navbar = () => {
   return (
     <section className="top-nav">
     <div>
-      Logo Here
+        Butacas Equitanti
     </div>
     <input id="menu-toggle" type="checkbox" />
     <label className='menu-button-container' htmlFor="menu-toggle">
     <div className='menu-button'></div>
   </label>
     <ul className="menu">
-      <li>One</li>
-      <li>Two</li>
-      <li>Three</li>
-      <li>Four</li>
-      <li>Five</li>
+      <li>Inicio</li>
+      <li>Productos</li>
+      <li>Contacto</li>
+      {/* <li>Four</li> */}
+      {/* <li>Five</li> */}
     </ul>
   </section>
   );

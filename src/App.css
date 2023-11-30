@@ -3,3 +3,47 @@
   margin: 0;
   /* background-color: rgb(107, 107, 107); */
 }
+
+.banner-container {
+  position: relative;
+  text-align: center;
+}
+
+/* Estilos para la imagen del banner */
+.img-banner {
+  width: 100%;
+}
+
+/* Estilos para el título en el banner */
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff; /* Color del texto (ajusta según sea necesario) */
+}
+
+.line-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  /* border: solid 1px red; */
+}
+
+hr {
+  /* display: inline-block; */
+  border: 0; /* Elimina el borde predeterminado */
+  width: 300px;
+  height: 1px; /* Ajusta la altura de la línea */
+  background-color: #cacaca; /* Color de fondo de la línea */
+  margin: 20px 0; /* Ajusta el espacio antes y después del hr */
+}
+
+h2 {
+  /* display: inline; */
+  text-align: center;
+  margin: 10px 20px;
+  /* border: solid 1px red; */
+
+}
