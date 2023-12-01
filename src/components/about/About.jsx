@@ -1,11 +1,11 @@
-import React from "react";
+// import React from "react";
 import "./About.css";
 
 export const About = () => {
   return (
     <section className="nuestra-historia">
-      <div className="overlay">
-        <div className="container">
+      <div className="nuestra-historia-overlay">
+        <div className="container-about">
           {/* <h2 className="title-about">Nuestra Historia</h2> */}
           <p className="descripcion">
             Somos más que una empresa; somos una tradición que perdura desde

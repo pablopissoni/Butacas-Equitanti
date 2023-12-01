@@ -3,18 +3,21 @@
 .nuestra-historia {
     background-color: #f8f8f8;
     height: auto;
+    margin-top: 30px;
     /* Fondo gris claro para destacar la sección */
     padding: 40px 0;
     /* Ajusta el espacio interno según sea necesario */
     background: url('../../../public/images/filas-asientos-rojos-teatro.jpg') center/cover no-repeat;
 }
 
-.overlay {
+.nuestra-historia-overlay {
     background-color: rgba(255, 255, 255, 0.8);
-    margin: 0 40px;
+    /* margin: 0 40px; */
+    margin: 10px auto 70px auto;
+    max-width: 1000px;
 }
 
-.container {
+.container-about {
     max-width: auto;
     padding: 30px;
     /* Ajusta el ancho máximo del contenedor principal */

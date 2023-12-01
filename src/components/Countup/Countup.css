@@ -1,0 +1,67 @@
+.countup-container {
+    background-color: #f8f8f8;
+    height: auto;
+    margin-top: 30px;
+    /* Fondo gris claro para destacar la sección */
+    padding: 40px 0;
+    /* Ajusta el espacio interno según sea necesario */
+    background: url('../../../public/images/jovenes-trabajando.jpg') center/cover no-repeat;
+}
+
+.countup-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    /* margin: 0 40px; */
+    margin: 10px auto 70px auto;
+    /* width: auto; */
+    max-width: 1500px;
+    color: white
+}
+
+.countup-cards-container {
+    display: flex;
+}
+
+.countup-cards {
+    /* border: solid 1px red; */
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.countup-cards img {
+    /* border: solid 1px red; */
+    filter: invert(90%);
+    width: 100px;
+    margin: 10px auto;
+}
+
+.countup-card {
+    font-size: 70px;
+    color: rgb(38, 255, 237);
+}
+
+.countup-text {
+    margin: 25px 10px 20px 10px;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+@media (max-width: 800px) {
+    .countup-cards-container {
+        display: block;
+    }
+
+    .countup-text {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+}
+
+/* Estilo adicional para resaltar la marca registrada */
+
+
+
+
+
+/* background-image: url('../../../public/images/jovenes-trabajando.jpg'); */

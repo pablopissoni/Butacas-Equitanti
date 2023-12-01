@@ -8,6 +8,7 @@ import { Caracteristicas } from "./components/caracteristicas/Caracteristicas";
 import { About } from "./components/about/About";
 import { Footer } from "./components/footer/Footer";
 import { Descripcion } from "./components/descripcion/Descripcion";
+import { Countup } from "./components/Countup/Countup";
 
 function App() {
   return (
@@ -64,6 +65,17 @@ function App() {
         </div>
         <About/>
       </div>
+
+      {/* >>> Contador <<<  */}
+      <div className="countup">
+        {/* <div className="line-title">
+          <hr />
+          <h2 className="title-menu">Sobre nosotros</h2>
+          <hr />
+        </div> */}
+      <Countup/>
+      </div>
+
 
       {/* >>> Footer <<<  */}
       <Footer/>
