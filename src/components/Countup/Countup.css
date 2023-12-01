@@ -13,7 +13,7 @@
     /* margin: 0 40px; */
     margin: 10px auto 70px auto;
     /* width: auto; */
-    max-width: 1500px;
+    max-width: 1000px;
     color: white
 }
 
@@ -32,18 +32,18 @@
 .countup-cards img {
     /* border: solid 1px red; */
     filter: invert(90%);
-    width: 100px;
+    width: 80px;
     margin: 10px auto;
 }
 
 .countup-card {
-    font-size: 70px;
+    font-size: 50px;
     color: rgb(38, 255, 237);
 }
 
 .countup-text {
     margin: 25px 10px 20px 10px;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 400;
 }
 

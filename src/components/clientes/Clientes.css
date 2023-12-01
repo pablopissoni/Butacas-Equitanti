@@ -1,0 +1,9 @@
+.clientes-container {
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.clientes-container img{
+    height: 90px;
+    margin: 10px 30px;
+}

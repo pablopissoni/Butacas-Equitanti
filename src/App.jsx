@@ -9,6 +9,8 @@ import { About } from "./components/about/About";
 import { Footer } from "./components/footer/Footer";
 import { Descripcion } from "./components/descripcion/Descripcion";
 import { Countup } from "./components/Countup/Countup";
+import { CardsAcordeon } from "./components/cards-acordeon/CardsAcordeon";
+import { Clientes } from "./components/clientes/Clientes";
 
 function App() {
   return (
@@ -45,6 +47,16 @@ function App() {
         <Descripcion/>
       </div>
 
+      {/* >>> Cards Acordeon <<<  */}
+      <div className="cards-acordeon">
+      <div className="line-title">
+          <hr />
+          <h2 className="title-menu">Trabajos anteriores</h2>
+          <hr />
+        </div>
+        <CardsAcordeon/>
+      </div>
+
 
       {/* >>> Caracteristicas <<<  */}
       <div className="caracteristicas">
@@ -68,12 +80,23 @@ function App() {
 
       {/* >>> Contador <<<  */}
       <div className="countup">
-        {/* <div className="line-title">
+        <div className="line-title">
           <hr />
-          <h2 className="title-menu">Sobre nosotros</h2>
+          <h2 className="title-menu">Nuestra experiencia</h2>
           <hr />
-        </div> */}
+        </div>
       <Countup/>
+      </div>
+
+
+      {/* >>> Clientes <<<  */}
+      <div className="countup">
+        <div className="line-title">
+          <hr />
+          <h2 className="title-menu">Nuestros clientes</h2>
+          <hr />
+        </div>
+      <Clientes/>
       </div>
 
 
