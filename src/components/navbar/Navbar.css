@@ -42,13 +42,18 @@ html, body {
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  margin: 0;
-  margin-right: 15%;
+  /* margin: 0; */
+  /* margin-right: 8%; */
+  width: 1000px;
   padding: 0;
+
 }
 
 .menu > li {
-  margin: 0 1rem;
+  /* width: auto; */
+  margin: 0 10px;
+  cursor: pointer;
+  /* margin: 0 1rem; */
   overflow: hidden;
 }
 
@@ -102,10 +107,55 @@ html, body {
   transform: rotate(-405deg);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1580px) {
+  .Title-page{
+    padding: 0;
+  }
+
+  .top-nav{
+    display: block;
+    height: auto;
+  }
+  
+  .menu{
+    justify-content: center;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 10px auto 2px auto;
+  }
+}
+
+@media (max-width: 1020px) {
   .menu-button-container {
     display: flex;
   }
+  
+
+  .menu-open {
+    /* Estilos adicionales para el menú cuando está abierto */
+    display: flex;
+    flex-direction: column;
+    background-color: #222; /* Cambia el color de fondo cuando el menú está abierto */
+    position: absolute;
+    top: 50px; /* Ajusta según sea necesario para evitar que el menú se superponga al encabezado */
+    left: 0;
+    width: 100%;
+  }
+  
+  .menu li {
+    /* Estilos adicionales para cada elemento de la lista cuando el menú está abierto */
+    padding: 0.5em;
+    width: 100%;
+    text-align: center;
+    color: white;
+  }
+
+
+  .top-nav{
+    display: flex;
+    height: 50px;
+  }
+
   .Title-page{
     /* text-align: center; */
     display: inline;

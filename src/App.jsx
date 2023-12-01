@@ -11,12 +11,13 @@ import { Descripcion } from "./components/descripcion/Descripcion";
 import { Countup } from "./components/Countup/Countup";
 import { CardsAcordeon } from "./components/cards-acordeon/CardsAcordeon";
 import { Clientes } from "./components/clientes/Clientes";
+import WhatsAppButton from "./components/WhatsAppButton/WhatsAppButton";
 
 function App() {
   return (
     <div>
       {/* >>> NavBar e imagen frontal <<<  */}
-      <div className="banner-container">
+      <div className="banner-container" id="inicio">
         <Navbar />
         <img
           className="img-banner"
@@ -38,7 +39,7 @@ function App() {
       </div>
 
       {/* >>> Descripcion <<<  */}
-      <div className="descripcion">
+      <div className="descripcion" id="descripcion">
       <div className="line-title">
           <hr />
           <h2 className="title-menu">Descripcion</h2>
@@ -48,7 +49,7 @@ function App() {
       </div>
 
       {/* >>> Cards Acordeon <<<  */}
-      <div className="cards-acordeon">
+      <div className="cards-acordeon" id="trabajos-anteriores">
       <div className="line-title">
           <hr />
           <h2 className="title-menu">Trabajos anteriores</h2>
@@ -59,7 +60,7 @@ function App() {
 
 
       {/* >>> Caracteristicas <<<  */}
-      <div className="caracteristicas">
+      <div className="caracteristicas" id="caracteristicas">
         <div className="line-title">
           <hr />
           <h2 className="title-menu">Caracteristicas</h2>
@@ -69,7 +70,7 @@ function App() {
       </div>
 
       {/* >>> About <<<  */}
-      <div className="about">
+      <div className="about" id="sobre-nosotros">
         <div className="line-title">
           <hr />
           <h2 className="title-menu">Sobre nosotros</h2>
@@ -79,7 +80,7 @@ function App() {
       </div>
 
       {/* >>> Contador <<<  */}
-      <div className="countup">
+      <div className="countup" id="experiencia">
         <div className="line-title">
           <hr />
           <h2 className="title-menu">Nuestra experiencia</h2>
@@ -90,7 +91,7 @@ function App() {
 
 
       {/* >>> Clientes <<<  */}
-      <div className="countup">
+      <div className="countup" id="nuestros-clientes">
         <div className="line-title">
           <hr />
           <h2 className="title-menu">Nuestros clientes</h2>
@@ -99,6 +100,7 @@ function App() {
       <Clientes/>
       </div>
 
+      <WhatsAppButton/>
 
       {/* >>> Footer <<<  */}
       <Footer/>
