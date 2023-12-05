@@ -1,7 +1,7 @@
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import butacas from '../../../public/images/filas-asientos-rojos-teatro.jpg';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import './carousel.css'
+import './Carousel.css'
 
 // Import Swiper styles
 import 'swiper/css';

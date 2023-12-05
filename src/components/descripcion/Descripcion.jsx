@@ -1,5 +1,5 @@
 import React from "react";
-import "./descripcion.css";
+import "./Descripcion.css";
 import butacasHombre from "../../../public/images/hombre-pasar-tiempo-cine.jpg";
 
 export const Descripcion = () => {
