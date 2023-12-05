@@ -1,12 +1,7 @@
 .carousel-container{
     margin: 20px 0px;
-  /* border: solid 1px red; */
 
 }
-
-/* .carousel{
-    margin-top: 20px;
-} */
 
 .carousel-img{
     width: 100%;
@@ -14,5 +9,4 @@
     padding: 0;
     margin: 0;
     object-fit: cover;
-    /* border-radius: 15px; */
 }

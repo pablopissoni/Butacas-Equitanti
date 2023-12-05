@@ -7,8 +7,6 @@ import iconSeat from "../../../public/images/seat.png";
 import iconSeats from "../../../public/images/seats.png";	
 import iconBadge from "../../../public/images/badge.png";	
 
-// import ImgClientes from "../../../public/images/clientes.jpg";
-// import ImgManos from "../../../public/images/jovenes-trabajando.jpg";
 import CountUp from "react-countup";
 
 export const Countup = () => {
@@ -23,15 +21,6 @@ export const Countup = () => {
     <section className="countup-container">
       <div className="countup-overlay">
         <div className="countup-cards-container">
-          {/* <h2 className="title-about">Nuestra Historia</h2> */}
-          {/* <span className="descripcion">
-            Somos más que una empresa; somos una tradición que perdura desde
-            1942. En EQUITANTI, nos dedicamos con pasión a la producción,
-            distribución y mantenimiento de equipamiento para cines y teatros.
-            La calidad excepcional de nuestros materiales, nuestro compromiso
-            con la experiencia del espectador y la confianza de nuestros
-            clientes nos han llevado a ser líderes en constante crecimiento.
-          </span> */}
 
           {stats.map(({ id, value, description, imgCount }) => (
             <div className="countup-cards" key={id}>
@@ -55,15 +44,3 @@ export const Countup = () => {
     </section>
   );
 };
-
-{
-  /* <CountUp
-  start={0}
-  end={1000}
-  duration={2.5}
-  delay={0}
-  separator=","
-  suffix="+"
-  enableScrollSpy={true}
-/> */
-}

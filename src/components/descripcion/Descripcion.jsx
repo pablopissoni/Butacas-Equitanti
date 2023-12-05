@@ -10,7 +10,6 @@ export const Descripcion = () => {
       </div>
 
       <div className="descripcion-text">
-        {/* <h3>Butacas para Auditorios, Cines y Teatros</h3> */}
 
         <div className="descripcion-text">
           <p>

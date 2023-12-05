@@ -39,23 +39,26 @@ const Navbar = () => {
         <div className="menu-button"></div>
       </label>
       <ul className={`menu ${isMenuOpen ? "menu-open" : ""}`}>
-        <li onClick={() => handleLinkClick("inicio")}>Inicio</li>
-        <li onClick={() => handleLinkClick("descripcion")}>Descripcion</li>
-        {/* <li onClick={() => handleLinkClick("contacto")}>
-          Contacto
-        </li> */}
+        <li onClick={() => handleLinkClick("inicio")}>
+          Inicio
+        </li>
+        
+        <li onClick={() => handleLinkClick("descripcion")}>
+          Sobre nosotros
+        </li>
+
         <li onClick={() => handleLinkClick("trabajos-anteriores")}>
           Trabajos anteriores
         </li>
+        
         <li onClick={() => handleLinkClick("caracteristicas")}>
           Caracteristicas
         </li>
-        <li onClick={() => handleLinkClick("sobre-nosotros")}>
-          Sobre nosotros
-        </li>
+
         <li onClick={() => handleLinkClick("experiencia")}>
           Nuestra experiencia
         </li>
+        
         <li onClick={() => handleLinkClick("nuestros-clientes")}>
           Nuestros clientes
         </li>

@@ -4,26 +4,14 @@
     width: auto;
     margin: 10px auto 20px auto;
     max-width: 1000px;
-    /* border: solid 1px red; */
-    /* background-color: rgb(234, 232, 232); */
 }
 
-/* .caracteristicas--text{
-    border: solid 1px red;
-    text-align: center;
-    margin: 10px 80px;
-    padding-bottom: 30px;
-} */
-
-
 .caracteristica--butaca{
-    /* border: solid 1px red; */
     text-align: center;
     margin: 10px 10px 25px 10px ;
 }
 
 .caracteristica--img{
-    /* border: solid 1px red; */
     width: 120px;
     height: auto;
 }
@@ -52,10 +40,3 @@
         display: block;
     }
 }
-/* @media (min-width: 700px) {
-    .caracteristicas {
-        height: 100px;
-        border: solid 1px red;
-
-    }
-} */

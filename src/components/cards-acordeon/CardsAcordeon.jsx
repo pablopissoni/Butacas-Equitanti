@@ -1,6 +1,5 @@
 // import React from 'react'
 import "./CardsAcordeon.css";
-// import butacaCine from "../../../public/images/palomitas-maiz-3d-asiento.jpg";
 import butacaCine from "../../../public/images/seat-istockphoto.jpg";
 
 
