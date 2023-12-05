@@ -2,6 +2,7 @@
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .card-acordeon__details {
@@ -9,10 +10,11 @@
     justify-content: center;
     align-items: center;
     height: auto; */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Sombra con desplazamiento X, desplazamiento Y, desenfoque y color */
     width: 1014px;
     transition: 200ms;
-
-
+    
+    
     margin: 20px 0;
     /* background-color: aquamarine; */
 }
@@ -32,7 +34,7 @@
     /* justify-content: space-between; */
     align-items: center;
     transition: 200ms;
-
+    
 }
 
 .card-acordeon__img-summary:hover {
@@ -48,12 +50,13 @@
 }
 
 .card-acordeon-container-text {
-    /* border: 1px solid blue; */
-    background-color: rgb(234, 234, 234);
+    background-color: rgb(239, 239, 239);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Sombra con desplazamiento X, desplazamiento Y, desenfoque y color */
+
     /* width: 800px; */
 
     padding: 15px ;
-    border-radius: 0 0 10px 10px;
+    /* border-radius: 0 0 10px 10px; */
 }
 
 .title-card {

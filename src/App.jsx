@@ -19,22 +19,22 @@ function App() {
       {/* >>> NavBar e imagen frontal <<<  */}
       <div className="banner-container" id="inicio">
         <Navbar />
-        <img
+        {/* <img
           className="img-banner"
           src="../public/images/sillones-widescreen.jpg"
           alt="banner sillones"
         />
         <div className="overlay"></div>
-        <h1 className="title-frontImg">Desde 1942 en producción de butacas y sillones</h1>
+        <h1 className="title-frontImg">Desde 1942 en producción de butacas y sillones</h1> */}
       </div>
 
       {/* >>> Carousel de imagenes <<<  */}
-      <div>
-        <div className="line-title">
+      <div className="app-carousel-container">
+        {/* <div className="line-title">
           <hr />
           <h2 className="title-menu">Nuestros Trabajos</h2>
           <hr />
-        </div>
+        </div> */}
         <Carousel />
       </div>
 
@@ -42,7 +42,7 @@ function App() {
       <div className="descripcion" id="descripcion">
       <div className="line-title">
           <hr />
-          <h2 className="title-menu">Descripcion</h2>
+          <h2 className="title-menu">Sobre nosotros</h2>
           <hr />
         </div>
         <Descripcion/>
@@ -70,14 +70,14 @@ function App() {
       </div>
 
       {/* >>> About <<<  */}
-      <div className="about" id="sobre-nosotros">
+      {/* <div className="about" id="sobre-nosotros">
         <div className="line-title">
           <hr />
           <h2 className="title-menu">Sobre nosotros</h2>
           <hr />
         </div>
         <About/>
-      </div>
+      </div> */}
 
       {/* >>> Contador <<<  */}
       <div className="countup" id="experiencia">

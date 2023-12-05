@@ -4,6 +4,8 @@
     margin-top: 30px;
     /* Fondo gris claro para destacar la sección */
     padding: 40px 0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Sombra con desplazamiento X, desplazamiento Y, desenfoque y color */
+
     /* Ajusta el espacio interno según sea necesario */
     background: url('../../../public/images/jovenes-trabajando.jpg') center/cover no-repeat;
 }

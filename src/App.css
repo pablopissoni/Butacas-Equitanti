@@ -25,6 +25,11 @@
   color: #fff; /* Color del texto (ajusta según sea necesario) */
 }
 
+.app-carousel-container{
+  margin-top: 50px;
+}
+
+
 .line-title{
   display: flex;
   justify-content: center;
