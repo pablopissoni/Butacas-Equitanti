@@ -5,7 +5,7 @@
     padding: 40px 0;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 
-    background: url('../../../public/images/jovenes-trabajando.jpg') center/cover no-repeat;
+    background: url('../../../public/images/filas-asientos-rojos-teatro-black.jpg') center/cover no-repeat;
 }
 
 .countup-overlay {
@@ -34,7 +34,7 @@
 
 .countup-card {
     font-size: 50px;
-    color: rgb(38, 255, 237);
+    color: rgb(255, 255, 255);
 }
 
 .countup-text {
